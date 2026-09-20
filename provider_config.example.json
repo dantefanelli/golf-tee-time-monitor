@@ -1,0 +1,15 @@
+{
+  "start_url": "https://example.com/sign-in",
+  "response_url_contains": "example-tee-times",
+  "tee_times_path": [
+    "data",
+    "tee_times"
+  ],
+  "field_map": {
+    "time": "start_time",
+    "available": "is_available",
+    "players_available": "open_spots"
+  },
+  "time_input_format": "%H:%M:%S",
+  "time_output_format": "%I:%M %p"
+}

@@ -1,0 +1,89 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.json
+provider_config.json
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches, bytecode, test output, and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Browser authentication, cookies, profiles, and session state
+playwright/.auth/
+playwright-report/
+test-results/
+.auth/
+auth/
+browser-data/
+user-data/
+profiles/
+storage_state*.json
+storage-state*.json
+cookies*.json
+session*.json
+auth.json
+*.sqlite
+*.sqlite3
+*.db
+
+# Network captures and private response dumps
+*.har
+captures/
+network-captures/
+responses/
+dumps/
+*_response.json
+*_payload.json
+
+# Logs and generated/debug artifacts
+*.log
+logs/
+debug/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.trace
+*.dump
+*.out
+
+# Screenshots and recordings
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov

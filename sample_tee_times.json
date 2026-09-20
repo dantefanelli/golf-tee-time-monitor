@@ -1,0 +1,22 @@
+[
+  {
+    "time": "8:30 AM",
+    "available": true,
+    "players_available": 4
+  },
+  {
+    "time": "9:00 AM",
+    "available": false,
+    "players_available": 0
+  },
+  {
+    "time": "9:30 AM",
+    "available": true,
+    "players_available": 2
+  },
+  {
+    "time": "10:00 AM",
+    "available": true,
+    "players_available": 1
+  }
+]
