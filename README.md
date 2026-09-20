@@ -24,6 +24,30 @@ state.
 - Checks exact target times, availability, and minimum player capacity.
 - Prints a terminal alert for each matching tee time.
 
+## Roadmap
+
+### Current — Implemented
+
+- Live tee-time response capture through Playwright
+- Manual authentication and tee-sheet navigation
+- Provider-configurable JSON parsing and normalization
+- Target-time and player-count filtering
+- Terminal availability alerts
+
+### Next — Planned
+
+- Configurable time-window matching
+- Automatic date selection
+- Persistent authenticated sessions
+- Continuous availability monitoring
+
+### Later — Planned
+
+- Reservation workflow exploration
+- Duplicate-action and verification safeguards
+- External notifications
+- User interface / packaged application
+
 ## Setup
 
 1. Create and activate a virtual environment:
